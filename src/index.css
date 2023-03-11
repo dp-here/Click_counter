@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.fontpae{
+  /* position: fixed; */
+  top: 0;
+  background-image:url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+width:100%;
+background-position: center;
+height:400px;
+overflow: hidden;
+margin-top: 0px;
+}
+.getstart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  /* position: relative; */
+  max-width: 100%;
+}
+.getstar{
+  background-color: rgb(0, 153, 255);
+  color: rgb(155, 6, 6);
+  border-radius: 10px;
+  border: 2px solid red;
+  border-style: double;
+  border-color: red;
+  width: 200px;
+  height: 50px;
+  font-size: 27px;
+  font-weight: bolder;
+  margin-top: 0px;
+  position: relative;
+  text-align: center;
+  max-width: 100%;
+}
+
+nav{
+  position: fixed;
+  left:0;
+  
+  top:0;
+}
+@media screen and (max-width: 420px) {
+  .getstart{
+   padding-top:200px;
+    background-color: lightgreen;
+    height: 20px;
+    font-size: small;
+    size: 10px;
+  }
+}
